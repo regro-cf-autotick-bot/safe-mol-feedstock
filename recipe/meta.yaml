@@ -1,5 +1,5 @@
 {% set name = "safe-mol" %}
-{% set version = "0.0.4" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/safe-mol-{{ version }}.tar.gz
-  sha256: 907078f8e70c2ff9e436634cdd2a039446c75b7d6e1f4c1ce894734331ab935a
+  sha256: 4b7e3e9f282a2ceb717da5bde59143ce741737df37eb21ee23e871266d50f016
 
 build:
   entry_points:
@@ -47,7 +47,7 @@ test:
 
 about:
   home: https://github.com/datamol-io/safe
-  summary: "Implementation of the 'Gotta be SAFE: a new framework for molecular design' paper"
+  summary: "A single model for all your molecular design tasks"
   license: Apache-2.0
   license_file: LICENSE
 
