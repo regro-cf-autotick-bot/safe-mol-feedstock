@@ -7,7 +7,7 @@ Home: https://github.com/datamol-io/safe
 
 Package license: Apache-2.0
 
-Summary: Implementation of the 'Gotta be SAFE: a new framework for molecular design' paper
+Summary: A single model for all your molecular design tasks
 
 Current build status
 ====================
