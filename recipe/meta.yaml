@@ -1,5 +1,5 @@
 {% set name = "safe-mol" %}
-{% set version = "0.1.11" %}
+{% set version = "0.1.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: a5403bf542fad4c7437505a4b25c8b4d2d2e5ca7c23bdcc19d0cc1507b45be1a
+  sha256: 5dd16bbb413389116036d207aace284c1113d9b7017a822119705dbccef2f205
 
 build:
   entry_points:
